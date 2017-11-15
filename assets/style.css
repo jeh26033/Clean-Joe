@@ -1,0 +1,82 @@
+/*My page, take 4 */
+
+/*body*/
+
+.jumbotron{
+	margin-top: 20px;
+	border-bottom: 10px solid black;
+	background-color: skyblue;
+
+}
+
+.nav{
+	background-color: lightblue;
+}
+
+#me{
+	height: 200px;
+	width: 200px;
+}
+
+main{
+	background-image: url(pixelsky.png);
+	background-size: cover;
+	min-height: 1300px;
+
+}
+
+header{
+
+}
+
+footer{
+	border-top: 10px solid black;
+	padding: 10px; 
+	
+
+}
+
+.legend{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 2px;
+	line-height: 0;
+	font-size: .75em;
+}
+
+.btn{
+	margin: 10px;
+}
+
+/*columns*/
+
+#personal{
+
+}
+
+#pro{
+
+}
+
+#future{
+
+}
+
+.columns{
+
+	padding: 3%;
+	margin-bottom: 10%;
+}
+
+/* star styles*/
+.single{
+	color: cyan;
+}
+
+.double{
+	color: skyblue;
+}
+
+.triple{
+	color: cornflowerblue;
+}
