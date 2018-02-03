@@ -7,25 +7,21 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/pixelpugicon.ico">
     <link href="assets/Iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-  
-
     <title>Joe H</title>
-   
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
      <!--my custom styles-->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
-
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323" rel="stylesheet">
   </head>
 
   <body>
     <nav style="background-color: #e3f2fd;" class="navbar navbar-expand-md fixed-top">
-
-      <a class="navbar-brand" href="#">Joe H</a>
+      <a class="navbar-brand" href="index.html">Joe H</a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span style="background-color:red;" class="navbar-toggler-icon"></span>
+        <span style="background-color:lightblue;" class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -45,73 +41,70 @@
       </div>
     </nav>
 
-
     <main role="main">
 
-      <!-- Main jumbotron, using my intro pictures -->
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">Hello, world!</h1><img class="img-fluid rounded mx-auto d-block" id='me' src="assets/pixelme.jpg">
+      <!-- Main jumbotron-->
+      <div class="jumbotron row">
+        <div class="col-sm-2 " id="intro">
+          <h1>Joe H.</h1>
+          <h2>Web developer</h2>
+          <h3>Ruby Enthusiast</h3>
+          <h4>All round cool guy</h4>
         </div>
-      </div>
+        <div class="col-sm"> <img class=" img-fluid rounded " id='me' src="assets/pixeljoe3.gif"> </div>
 
-      <div class="container">
-        <!-- Row of columns showing stats -->
-        <div class="row">
-          <div id='personal' class="columns col-md-4">
-            <h2>Who am I?</h2>
+        <div class="container-">
+          <!-- Row of columns-->
+          <div class="row">
+            <div id='personal' class="columns col-md">
+              <h2 class="card_title">Who am I?</h2>
+              <p>I'm <strong>Joe</strong>, and I do web development and design.</p>
+              <p>The websites I build clean, simple layouts that are easy to navigate. I design from the perspective of the average user first, creating pleasant, modern designs that are a breeze to navigate through. Less is more, right? I try to keep that at the forefront of my work. Click the button below for some quick stats on what I know.</p>
 
-            <p>I'm <strong>Joe</strong>, and I do web development and design.</p>
+             <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                  What do I know? <span class="oi oi-expand-down"></span>
+                </a>
+            </p>
 
-            <p>The websites I build clean, simple layouts that are easy to navigate. I design from the perspective of the average user first, creating pleasant, modern designs that are a breeze to navigate through. Less is more, right? I try to keep that at the forefront of my work. Click the button below for some quick stats on what I know.</p>
+              <div class="collapse" id="collapse1">
+                <div class="card card-body">
+                  <h1 class="card_title">Here's what I know</h1>
 
-           <p>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                What do I know? <span class="oi oi-expand-down"></span>
-              </a>
-          </p>
-
-            <div class="collapse" id="collapse1">
-              <div class="card card-body">
-                <h1>Here's what I know</h1>
-                <div class="legend">
+                  <div class="legend">
                     <h6>And how well I know it</h6>
-                    
-                    <div><p>Scratching the Surface<span class="single oi oi-star" title="star" aria-hidden="true"></span></p></div>
+                    <div>
+                      <p>Scratching the Surface<span class="single oi oi-star" title="star" aria-hidden="true"></span></p>
+                    </div>
                     
                     <div><p>Basic understanding <span class="double oi oi-star" title="star" aria-hidden="true"></span><span class="double oi oi-star" title="star" aria-hidden="true"></span></p></div>
                     
                     <div><p>Proficient <span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span></p></div>
-                  
                   </div>
 
-                <ul>
-                  <li>Html/Css<span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span></li>
-                  <li>Bootstrap<span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span></li>
-                  <li>Javascript<span class="double oi oi-star" title="star" aria-hidden="true"></span><span class="double oi oi-star" title="star" aria-hidden="true"></span></li>
-                  <li>Ruby<span class="double oi oi-star" title="star" aria-hidden="true"></span><span class="double oi oi-star" title="star" aria-hidden="true"></span></li>
-                  <li>Rails<span class="double oi oi-star" title="star" aria-hidden="true"></span><span class="double oi oi-star" title="star" aria-hidden="true"></span></li>
-                  <li>Linux<span class="double oi oi-star" title="star" aria-hidden="true"></span><span class="double oi oi-star" title="star" aria-hidden="true"></li>
-                  <li>Python<span class="single oi oi-star" title="star" aria-hidden="true"></span></li>
-                  <li>PHP<span class="single oi oi-star" title="star" aria-hidden="true"></span></li>
-                  <li>MYSQL<span class="single oi oi-star" title="star" aria-hidden="true"></span></li>
-                  
-                </ul>
+                  <ul>
+                    <li>Html/Css<span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span></li>
+                    <li>Bootstrap<span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span><span class="triple oi oi-star" title="star" aria-hidden="true"></span></li>
+                    <li>Javascript<span class="double oi oi-star" title="star" aria-hidden="true"></span><span class="double oi oi-star" title="star" aria-hidden="true"></span></li>
+                    <li>Ruby<span class="double oi oi-star" title="star" aria-hidden="true"></span><span class="double oi oi-star" title="star" aria-hidden="true"></span></li>
+                    <li>Rails<span class="double oi oi-star" title="star" aria-hidden="true"></span><span class="double oi oi-star" title="star" aria-hidden="true"></span></li>
+                    <li>Linux<span class="double oi oi-star" title="star" aria-hidden="true"></span><span class="double oi oi-star" title="star" aria-hidden="true"></li>
+                    <li>Python<span class="single oi oi-star" title="star" aria-hidden="true"></span></li>
+                    <li>PHP<span class="single oi oi-star" title="star" aria-hidden="true"></span></li>
+                    <li>MYSQL<span class="single oi oi-star" title="star" aria-hidden="true"></span></li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div id='pro' class="columns col-md-4">
-            <h2>What have I done?</h2>
+          <div id='pro' class="columns col-md">
+            <h2 class="card_title">What have I done?</h2>
             <p>I am a student at Northern Virginia Community College, studying their Web Development Certificate program. I've completed various class projects, tinkered with sites for local small businesses, and completed quite a few internet-based self learning programs. Click <strong>that button</strong> to get more details, or you can get my <strong><a href="resume.pdf" target="_blank"> resume </a></strong> for the quick details. </p>
 
             <p>
               <a class="btn btn-primary" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
                 <strong> That Button <span class="oi oi-expand-down"></span></strong>
               </a>
-            
-              
-            
             </p>
 
             <div class="align-middle collapse" id="collapse2">
@@ -130,6 +123,8 @@
                 <ul>
                   <li><a href="https://pug-page.herokuapp.com/index.html">Web Design 1 Final Project</a></li>
                   <li>Comptia A+ Certified</li>
+                  <li><a href="http://54.86.182.117:3003">A Rails site for my Gaming group to hack around with</a></li>
+                  <li><a href="https://glacial-basin-65532.herokuapp.com/">A work in progress Rails Site for a local business</a></li>
                   <li><a href="examples/index.html"> A mock-up page for a local breeder</a></li>
                   <li>You can look at my Github for my other small projects and such</li>
                 </ul>
@@ -140,17 +135,17 @@
 
           </div>
 
-          <div id='future' class="columns col-md-4">
-            <h2>Where am I going?</h2>
+          <div id='future' class="columns col-md">
+            <h2 class="card_title">Where am I going?</h2>
             <p>The sky is the limit! I enjoy doing this, so improving and getting better is something I look forward too. This page itself has gone through 4 different interations in the last year, and each one shows significant growth, in both my skills as a programmer, and my stylistic and design choices. I know I can only get better, much like cheese. All I need is the right conditions to let my flavors bloom. Like what you see? Feel free to contact me up via my email,<strong> jeh26033@email.vccs.edu</strong>  or any of the many other options at the top of the site </p>
             
           </div>
         </div>
 
-        <hr>
+   
 
       </div> <!-- /container -->
-
+      </div
     </main>
 
     <footer class="container">
@@ -165,4 +160,5 @@
     <script src="bootstrap/assets/js/vendor/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
+
 </html>
